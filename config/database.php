@@ -27,12 +27,7 @@ if ($conexion->connect_error) {
 // Esto asegura que los acentos y caracteres especiales (como la 'ñ') se muestren correctamente.
 $conexion->set_charset("utf8mb4");
 
-// ========= CONFIGURACIÓN DE PAYPAL =========
-// Asegúrate de estar usando las credenciales del entorno SANDBOX para pruebas.
-define('PAYPAL_CLIENT_ID', 'AQ2RNgD9bV_-yQwMxRplwEFWuXuIReXK8X7F2Nz-yMDSeXEteO8K0Yn16P_xM');
-define('PAYPAL_SECRET', 'EG-jSBMJd3hJnQMf5pe7GI8UqF7Seq_AdupkOw_ycq9yVpvhZ');
-define('PAYPAL_API_URL', 'https://api-m.sandbox.paypal.com'); // URL para el entorno de Sandbox```
-
 ?>
+
 
 
